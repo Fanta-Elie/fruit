@@ -1,0 +1,50 @@
+h1 { 
+  text-align: center; /*Centrage de mon titre et choix de la couleur*/
+  color: white;
+}
+img {
+  position: relative; /*positionement de l'image*/
+  margin-left: 130px;
+}
+p { /*personalisation de mes paragraphes ( taille , police d'écriture , centrage du texte ect ... )*/
+  font-size: 20px; 
+  font-weight: bold;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: bold;
+}
+#bigboite { /*Ma div qui contiendras tout mon contenue*/
+  margin-left: 200px;
+  position: absolute;
+  border: 2px solid #DFDBDB;
+  box-shadow: 8px 8px 15px black;
+}
+#ban { /*Ici ma bannière de haut de page de couleur orange*/
+  border: 2px solid #DFDBDB;
+  background-color: #ffa600;
+  position: relative;
+  width: 700px;
+  height: 90px;
+  margin-left: 55px;
+}
+table { /*Ici je personalise le tableau , sa taille ainsi que sa position et la police d'écriture des caractères du tableau , les colonnes ( collapse)*/
+  margin: auto;
+  border: 1px solid #DFDBDB;
+  width: 600px;
+  height: 400px;
+  font-size: 18px;
+  font-family: Helvetica;
+  font-weight: bold;
+  border-collapse: collapse;
+  color: black;
+  background-color: #F5EBEC;
+}
+tfoot{ /*alignement du texte au pied du tableau*/
+  text-align: center;
+}
+a { /*personalisation du lien ( décoration ect ... )*/
+ text-decoration: none;
+ color: orange;
+ outline-color: red;
+}
